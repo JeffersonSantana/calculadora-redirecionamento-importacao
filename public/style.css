@@ -1,0 +1,75 @@
+body {
+  background: #ccc;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+h1 {
+  display: block;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.subtitulo {
+  display: block;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+form label,
+form span {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2% 0;
+  font-size: 1.2rem;
+}
+
+form label {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+input[type="text"] {
+  height: 3rem;
+  padding: 5% 1%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  text-align: center;
+}
+
+input[type="submit"] {
+  padding: 3% 0;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  text-align: center;
+  background: #009900;
+  cursor: pointer;
+}
+
+.resultado {
+  display: block;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2% 0;
+}
+
+.resultadoDolar {
+  font-weight: bold;
+  background: #fff;
+  padding: 5%;
+  display: block;
+  text-align: center;
+}
